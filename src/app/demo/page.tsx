@@ -65,7 +65,7 @@ export default function DemoPage() {
       setUserScore(userScore + score);
       setActiveTask(null);
       setShowSuccess(true);
-      
+
       // Hide success message after 3 seconds
       setTimeout(() => {
         setShowSuccess(false);
@@ -106,13 +106,13 @@ export default function DemoPage() {
   return (
     <>
       <Navbar />
-      
+
       <main className="min-h-screen bg-gray-950 pt-24 pb-20">
         <div className="container mx-auto px-4">
           {/* Header */}
           <div className="text-center mb-12">
             <TextReveal
-              text="SimulEx Demo"
+              text="SimWork Demo"
               element="h1"
               preset="gradient"
               className="text-4xl md:text-5xl font-bold mb-4"
@@ -121,7 +121,7 @@ export default function DemoPage() {
               Experience the future of work simulation. Choose a role to get started.
             </p>
           </div>
-          
+
           {/* Success Message */}
           {showSuccess && (
             <motion.div
@@ -138,7 +138,7 @@ export default function DemoPage() {
               </div>
             </motion.div>
           )}
-          
+
           {/* Role Selection */}
           {!selectedRole && (
             <motion.div
@@ -176,7 +176,7 @@ export default function DemoPage() {
               </div>
             </motion.div>
           )}
-          
+
           {/* Workstation View */}
           {selectedRole && (
             <div>
@@ -192,7 +192,7 @@ export default function DemoPage() {
                   Change Role
                 </Button>
               </div>
-              
+
               {/* User Stats */}
               <div className="bg-gray-900/50 rounded-lg p-4 mb-8">
                 <div className="flex flex-wrap gap-4">
@@ -210,7 +210,7 @@ export default function DemoPage() {
                   </div>
                 </div>
               </div>
-              
+
               {/* Available Tasks */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 <div>
@@ -225,7 +225,7 @@ export default function DemoPage() {
                     )}
                   </div>
                 </div>
-                
+
                 <div>
                   <h3 className="text-xl font-bold mb-4">Workstation Overview</h3>
                   <Card variant="glass" className="h-full">
@@ -237,7 +237,7 @@ export default function DemoPage() {
                         <h4 className="text-xl font-bold">{roles.find(r => r.role === selectedRole)?.title} Station</h4>
                         <p className="text-gray-400 mt-2">{roles.find(r => r.role === selectedRole)?.description}</p>
                       </div>
-                      
+
                       <div className="space-y-4">
                         <div className="bg-gray-800/50 p-4 rounded-lg">
                           <h5 className="font-medium mb-2">Skills You'll Develop</h5>
@@ -284,7 +284,7 @@ export default function DemoPage() {
                             )}
                           </ul>
                         </div>
-                        
+
                         <div className="bg-gray-800/50 p-4 rounded-lg">
                           <h5 className="font-medium mb-2">How It Works</h5>
                           <ol className="list-decimal list-inside text-sm text-gray-400 space-y-1">
@@ -303,7 +303,7 @@ export default function DemoPage() {
           )}
         </div>
       </main>
-      
+
       {/* Task Interface */}
       {activeTask && (
         <TaskInterface

@@ -1,4 +1,4 @@
-# SimulEx Market Research
+# SimWork Market Research
 
 ## Market Overview
 
@@ -58,9 +58,9 @@ The corporate training and simulation market is experiencing significant growth,
    - **Strengths**: Wide range of assessment types
    - **Weaknesses**: Assessment-only, no training component
 
-## SimulEx Competitive Advantage
+## SimWork Competitive Advantage
 
-1. **Cross-Domain Integration**: Unlike specialized platforms, SimulEx spans multiple job functions in one environment.
+1. **Cross-Domain Integration**: Unlike specialized platforms, SimWork spans multiple job functions in one environment.
 
 2. **Real-World Task Simulation**: Goes beyond quizzes and videos to simulate actual work environments and tasks.
 
@@ -72,16 +72,16 @@ The corporate training and simulation market is experiencing significant growth,
 
 ## Pricing Strategy
 
-Based on competitor analysis, SimulEx will adopt a tiered pricing model:
+Based on competitor analysis, SimWork will adopt a tiered pricing model:
 
 - **Individual**: $19.99/month
 - **Team** (5-20 users): $16.99/user/month
 - **Enterprise** (21+ users): Custom pricing
 
-This positions SimulEx as a premium but accessible solution, reflecting its advanced capabilities while remaining competitive with established players.
+This positions SimWork as a premium but accessible solution, reflecting its advanced capabilities while remaining competitive with established players.
 
 ## Market Opportunity
 
 The intersection of corporate training, gamification, and AI-driven simulation represents a significant opportunity. With remote work becoming permanent for many organizations, the need for effective virtual training and assessment tools is growing rapidly.
 
-SimulEx addresses this need by providing a comprehensive, engaging platform that bridges the gap between theoretical knowledge and practical application, offering both training and assessment capabilities in one solution.
+SimWork addresses this need by providing a comprehensive, engaging platform that bridges the gap between theoretical knowledge and practical application, offering both training and assessment capabilities in one solution.

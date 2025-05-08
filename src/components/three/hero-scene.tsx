@@ -230,7 +230,7 @@ function Scene() {
         anchorX="center"
         anchorY="middle"
       >
-        SimulEx
+        SimWork
       </Text>
 
       <Text

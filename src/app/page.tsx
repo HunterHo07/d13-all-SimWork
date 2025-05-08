@@ -138,7 +138,7 @@ export default function Home() {
               <span className="gradient-text">Immersive Simulation</span> for Real Skills
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              SimulEx bridges the gap between theoretical knowledge and practical application with our AI-driven simulation platform.
+              SimWork bridges the gap between theoretical knowledge and practical application with our AI-driven simulation platform.
             </p>
           </motion.div>
 
@@ -249,7 +249,7 @@ export default function Home() {
               What <span className="gradient-text">Users Say</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              Hear from professionals who have experienced the SimulEx difference.
+              Hear from professionals who have experienced the SimWork difference.
             </p>
           </motion.div>
 
@@ -265,7 +265,7 @@ export default function Home() {
                     </div>
                   </div>
                   <p className="text-gray-300">
-                    "SimulEx transformed our onboarding process. New developers get up to speed twice as fast with the interactive coding challenges."
+                    "SimWork transformed our onboarding process. New developers get up to speed twice as fast with the interactive coding challenges."
                   </p>
                 </CardContent>
               </Card>
@@ -282,7 +282,7 @@ export default function Home() {
                     </div>
                   </div>
                   <p className="text-gray-300">
-                    "The design workstation in SimulEx provides realistic briefs and feedback that helped me improve my skills dramatically."
+                    "The design workstation in SimWork provides realistic briefs and feedback that helped me improve my skills dramatically."
                   </p>
                 </CardContent>
               </Card>
@@ -305,7 +305,7 @@ export default function Home() {
               Ready to Experience the <span className="gradient-text">Future of Work</span>?
             </h2>
             <p className="text-xl text-gray-400 mb-8">
-              Join SimulEx today and transform how you train, assess, and develop professional skills.
+              Join SimWork today and transform how you train, assess, and develop professional skills.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button
@@ -336,7 +336,7 @@ export default function Home() {
                 <div className="w-10 h-10 bg-gradient-to-br from-indigo-500 to-blue-600 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-xl">S</span>
                 </div>
-                <span className="text-white font-bold text-xl">SimulEx</span>
+                <span className="text-white font-bold text-xl">SimWork</span>
               </Link>
               <p className="text-gray-400 mt-2">The Future of Work Simulation</p>
             </div>
@@ -372,7 +372,7 @@ export default function Home() {
           </div>
 
           <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-            <p className="text-gray-500">© 2024 SimulEx. All rights reserved.</p>
+            <p className="text-gray-500">© 2024 SimWork. All rights reserved.</p>
           </div>
         </div>
       </footer>

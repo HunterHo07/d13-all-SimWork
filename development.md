@@ -1,8 +1,8 @@
-# SimulEx Development Documentation
+# SimWork Development Documentation
 
 ## Tech Stack
 
-SimulEx is built using the following technologies:
+SimWork is built using the following technologies:
 
 ### Frontend
 - **Framework**: Next.js 15 with TypeScript
@@ -24,7 +24,7 @@ SimulEx is built using the following technologies:
 ## Project Structure
 
 ```
-simulex/
+simwork/
 ├── public/               # Static assets
 │   ├── images/           # Image assets
 │   ├── models/           # 3D models
@@ -123,12 +123,12 @@ The current MVP focuses on delivering a web-based 2.5D simulation game with the 
    - Manufacturing
    - Retail
 
-## How to Use SimulEx
+## How to Use SimWork
 
 ### For Users
 
 1. **Getting Started**
-   - Navigate to the SimulEx website
+   - Navigate to the SimWork website
    - Create an account or use the demo login
    - Select your role or area of interest
 
@@ -154,10 +154,10 @@ The current MVP focuses on delivering a web-based 2.5D simulation game with the 
    ```bash
    # Clone the repository
    git clone https://github.com/yourusername/i5.git
-   
+
    # Install dependencies
    npm install
-   
+
    # Start the development server
    npm run dev
    ```
@@ -166,7 +166,7 @@ The current MVP focuses on delivering a web-based 2.5D simulation game with the 
    ```bash
    # Build the project
    npm run build
-   
+
    # Deploy to GitHub Pages
    npm run deploy
    ```

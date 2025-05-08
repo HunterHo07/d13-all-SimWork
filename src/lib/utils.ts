@@ -81,7 +81,7 @@ export function calculateTaskScore(
  */
 export function saveUserData(user: User): void {
   if (typeof window !== 'undefined') {
-    localStorage.setItem('simulex-user', JSON.stringify(user));
+    localStorage.setItem('simwork-user', JSON.stringify(user));
   }
 }
 
@@ -90,7 +90,7 @@ export function saveUserData(user: User): void {
  */
 export function loadUserData(): User | null {
   if (typeof window !== 'undefined') {
-    const userData = localStorage.getItem('simulex-user');
+    const userData = localStorage.getItem('simwork-user');
     if (userData) {
       return JSON.parse(userData);
     }
@@ -103,7 +103,7 @@ export function loadUserData(): User | null {
  */
 export function clearUserData(): void {
   if (typeof window !== 'undefined') {
-    localStorage.removeItem('simulex-user');
+    localStorage.removeItem('simwork-user');
   }
 }
 
@@ -115,13 +115,13 @@ export function debounce<T extends (...args: any[]) => any>(
   wait: number
 ): (...args: Parameters<T>) => void {
   let timeout: NodeJS.Timeout | null = null;
-  
+
   return function(...args: Parameters<T>) {
     const later = () => {
       timeout = null;
       func(...args);
     };
-    
+
     if (timeout !== null) {
       clearTimeout(timeout);
     }
@@ -137,7 +137,7 @@ export function throttle<T extends (...args: any[]) => any>(
   limit: number
 ): (...args: Parameters<T>) => void {
   let inThrottle: boolean = false;
-  
+
   return function(...args: Parameters<T>) {
     if (!inThrottle) {
       func(...args);

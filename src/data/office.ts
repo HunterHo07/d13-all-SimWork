@@ -66,7 +66,7 @@ const npcs: NPC[] = [
     dialogue: [
       {
         id: 'intro',
-        text: 'Welcome to SimulEx! I\'m Dr. Ada, your AI guide. How can I assist you today?',
+        text: 'Welcome to SimWork! I\'m Dr. Ada, your AI guide. How can I assist you today?',
         options: [
           { text: 'Tell me about the workstations', nextId: 'workstations' },
           { text: 'How do I complete tasks?', nextId: 'tasks' },
@@ -92,7 +92,7 @@ const npcs: NPC[] = [
       },
       {
         id: 'skills',
-        text: 'SimulEx helps you develop both technical and soft skills. Technical skills include coding, design, data analysis, and AI engineering. Soft skills include problem-solving, time management, attention to detail, and decision-making.',
+        text: 'SimWork helps you develop both technical and soft skills. Technical skills include coding, design, data analysis, and AI engineering. Soft skills include problem-solving, time management, attention to detail, and decision-making.',
         options: [
           { text: 'How do I track my progress?', nextId: 'progress' },
           { text: 'Thanks for the information', nextId: 'goodbye' }
@@ -198,7 +198,7 @@ const obstacles: Obstacle[] = [
 // Office Environment
 export const officeEnvironment: OfficeEnvironment = {
   id: 'main-office',
-  name: 'SimulEx Headquarters',
+  name: 'SimWork Headquarters',
   workstations,
   npcs,
   obstacles,

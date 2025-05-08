@@ -59,7 +59,7 @@ export default function LandingPage() {
       setIsSuccess(true);
 
       // Save to localStorage for demo purposes
-      localStorage.setItem('simulex-signup', JSON.stringify(formData));
+      localStorage.setItem('simwork-signup', JSON.stringify(formData));
     }, 1500);
   };
 
@@ -77,7 +77,7 @@ export default function LandingPage() {
     },
     {
       title: "Feature Input",
-      description: "Help shape the future of SimulEx by providing direct input on new features.",
+      description: "Help shape the future of SimWork by providing direct input on new features.",
       icon: "🚀"
     },
     {
@@ -375,7 +375,7 @@ export default function LandingPage() {
               className="text-4xl md:text-5xl font-bold mb-4"
             />
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              Sign up now for early access to SimulEx and get exclusive benefits
+              Sign up now for early access to SimWork and get exclusive benefits
             </p>
           </div>
 

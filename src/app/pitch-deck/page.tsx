@@ -9,11 +9,11 @@ import { TextReveal } from '@/components/animations/text-reveal';
 
 export default function PitchDeckPage() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  
+
   // Pitch deck slides
   const slides = [
     {
-      title: "SimulEx",
+      title: "SimWork",
       subtitle: "The Future of Work Simulation",
       content: (
         <div className="text-center">
@@ -24,7 +24,7 @@ export default function PitchDeckPage() {
             Train. Simulate. Master.
           </p>
           <p className="text-gray-400">
-            Presented by SimulEx Team
+            Presented by SimWork Team
           </p>
         </div>
       )
@@ -45,7 +45,7 @@ export default function PitchDeckPage() {
               </p>
             </div>
           </div>
-          
+
           <div className="flex items-start">
             <div className="w-12 h-12 bg-red-500/20 rounded-full flex items-center justify-center mr-4 mt-1">
               <span className="text-xl">🎭</span>
@@ -57,7 +57,7 @@ export default function PitchDeckPage() {
               </p>
             </div>
           </div>
-          
+
           <div className="flex items-start">
             <div className="w-12 h-12 bg-red-500/20 rounded-full flex items-center justify-center mr-4 mt-1">
               <span className="text-xl">⏱️</span>
@@ -84,11 +84,11 @@ export default function PitchDeckPage() {
             <div>
               <h3 className="text-xl font-bold mb-2">Immersive, Multi-Role Game World</h3>
               <p className="text-gray-400">
-                SimulEx places users in a 3D office/map with stations for Developer, Designer, PM, Data Entry, and AI Engineer roles. Trainees navigate to desks equipped with real terminals, virtual notebooks, and design tools.
+                SimWork places users in a 3D office/map with stations for Developer, Designer, PM, Data Entry, and AI Engineer roles. Trainees navigate to desks equipped with real terminals, virtual notebooks, and design tools.
               </p>
             </div>
           </div>
-          
+
           <div className="flex items-start">
             <div className="w-12 h-12 bg-green-500/20 rounded-full flex items-center justify-center mr-4 mt-1">
               <span className="text-xl">🤖</span>
@@ -100,7 +100,7 @@ export default function PitchDeckPage() {
               </p>
             </div>
           </div>
-          
+
           <div className="flex items-start">
             <div className="w-12 h-12 bg-green-500/20 rounded-full flex items-center justify-center mr-4 mt-1">
               <span className="text-xl">📊</span>
@@ -141,7 +141,7 @@ export default function PitchDeckPage() {
               </div>
             </div>
           </div>
-          
+
           <div className="bg-gray-800/50 p-6 rounded-lg">
             <h3 className="text-xl font-bold mb-4">Key Trends</h3>
             <ul className="list-disc list-inside text-gray-400 space-y-2">
@@ -156,7 +156,7 @@ export default function PitchDeckPage() {
     },
     {
       title: "Competitive Advantage",
-      subtitle: "What sets SimulEx apart",
+      subtitle: "What sets SimWork apart",
       content: (
         <div className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -164,11 +164,11 @@ export default function PitchDeckPage() {
               <CardContent className="p-6">
                 <h3 className="text-lg font-bold mb-3">Cross-Domain Integration</h3>
                 <p className="text-gray-400 text-sm">
-                  Unlike specialized platforms, SimulEx spans multiple job functions in one environment.
+                  Unlike specialized platforms, SimWork spans multiple job functions in one environment.
                 </p>
               </CardContent>
             </Card>
-            
+
             <Card variant="glass" className="h-full">
               <CardContent className="p-6">
                 <h3 className="text-lg font-bold mb-3">Real-World Task Simulation</h3>
@@ -177,7 +177,7 @@ export default function PitchDeckPage() {
                 </p>
               </CardContent>
             </Card>
-            
+
             <Card variant="glass" className="h-full">
               <CardContent className="p-6">
                 <h3 className="text-lg font-bold mb-3">Adaptive Difficulty</h3>
@@ -186,7 +186,7 @@ export default function PitchDeckPage() {
                 </p>
               </CardContent>
             </Card>
-            
+
             <Card variant="glass" className="h-full">
               <CardContent className="p-6">
                 <h3 className="text-lg font-bold mb-3">Comprehensive Analytics</h3>
@@ -196,7 +196,7 @@ export default function PitchDeckPage() {
               </CardContent>
             </Card>
           </div>
-          
+
           <div className="bg-gray-800/50 p-6 rounded-lg">
             <h3 className="text-xl font-bold mb-4">Competitor Comparison</h3>
             <div className="overflow-x-auto">
@@ -204,7 +204,7 @@ export default function PitchDeckPage() {
                 <thead>
                   <tr className="border-b border-gray-700">
                     <th className="text-left py-2">Feature</th>
-                    <th className="text-center py-2">SimulEx</th>
+                    <th className="text-center py-2">SimWork</th>
                     <th className="text-center py-2">Traditional LMS</th>
                     <th className="text-center py-2">Coding Platforms</th>
                   </tr>
@@ -263,7 +263,7 @@ export default function PitchDeckPage() {
                 </Button>
               </CardContent>
             </Card>
-            
+
             <Card variant="glass" className="h-full border border-indigo-500">
               <CardContent className="p-6 text-center">
                 <div className="bg-indigo-500 text-white text-xs px-2 py-1 rounded-full inline-block mb-2">POPULAR</div>
@@ -281,7 +281,7 @@ export default function PitchDeckPage() {
                 </Button>
               </CardContent>
             </Card>
-            
+
             <Card variant="glass" className="h-full">
               <CardContent className="p-6 text-center">
                 <h3 className="text-xl font-bold mb-2">Enterprise</h3>
@@ -299,7 +299,7 @@ export default function PitchDeckPage() {
               </CardContent>
             </Card>
           </div>
-          
+
           <div className="bg-gray-800/50 p-6 rounded-lg">
             <h3 className="text-xl font-bold mb-4">Go-to-Market Strategy</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -331,7 +331,7 @@ export default function PitchDeckPage() {
         <div className="space-y-6">
           <div className="relative">
             <div className="absolute left-6 top-0 bottom-0 w-1 bg-indigo-500/30"></div>
-            
+
             <div className="relative pl-16 pb-8">
               <div className="absolute left-0 w-12 h-12 bg-indigo-500 rounded-full flex items-center justify-center">
                 <span className="text-white font-bold">1</span>
@@ -349,7 +349,7 @@ export default function PitchDeckPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="relative pl-16 pb-8">
               <div className="absolute left-0 w-12 h-12 bg-indigo-500/70 rounded-full flex items-center justify-center">
                 <span className="text-white font-bold">2</span>
@@ -366,7 +366,7 @@ export default function PitchDeckPage() {
                 </div>
               </div>
             </div>
-            
+
             <div className="relative pl-16">
               <div className="absolute left-0 w-12 h-12 bg-indigo-500/40 rounded-full flex items-center justify-center">
                 <span className="text-white font-bold">3</span>
@@ -402,7 +402,7 @@ export default function PitchDeckPage() {
               </p>
             </CardContent>
           </Card>
-          
+
           <Card variant="glass" className="h-full">
             <CardContent className="p-6 text-center">
               <div className="w-24 h-24 bg-purple-500/20 rounded-full mx-auto mb-4"></div>
@@ -413,7 +413,7 @@ export default function PitchDeckPage() {
               </p>
             </CardContent>
           </Card>
-          
+
           <Card variant="glass" className="h-full">
             <CardContent className="p-6 text-center">
               <div className="w-24 h-24 bg-blue-500/20 rounded-full mx-auto mb-4"></div>
@@ -448,30 +448,30 @@ export default function PitchDeckPage() {
             </Button>
           </div>
           <p className="text-gray-400 mt-8">
-            contact@simulex.ai | www.simulex.ai
+            contact@simwork.ai | www.simwork.ai
           </p>
         </div>
       )
     }
   ];
-  
+
   // Navigation functions
   const nextSlide = () => {
     if (currentSlide < slides.length - 1) {
       setCurrentSlide(currentSlide + 1);
     }
   };
-  
+
   const prevSlide = () => {
     if (currentSlide > 0) {
       setCurrentSlide(currentSlide - 1);
     }
   };
-  
+
   const goToSlide = (index: number) => {
     setCurrentSlide(index);
   };
-  
+
   // Animation variants
   const slideVariants = {
     enter: { x: 1000, opacity: 0 },
@@ -482,7 +482,7 @@ export default function PitchDeckPage() {
   return (
     <>
       <Navbar />
-      
+
       <main className="min-h-screen bg-gray-950 pt-24 pb-20">
         <div className="container mx-auto px-4 max-w-5xl">
           {/* Pitch Deck */}
@@ -510,7 +510,7 @@ export default function PitchDeckPage() {
                   →
                 </Button>
               </div>
-              
+
               <div className="flex items-center space-x-1">
                 {slides.map((_, index) => (
                   <button
@@ -523,7 +523,7 @@ export default function PitchDeckPage() {
                 ))}
               </div>
             </div>
-            
+
             {/* Slide Content */}
             <div className="relative h-[calc(100vh-200px)] overflow-hidden">
               <AnimatePresence mode="wait">
@@ -546,7 +546,7 @@ export default function PitchDeckPage() {
                       />
                       <p className="text-gray-400">{slides[currentSlide].subtitle}</p>
                     </div>
-                    
+
                     <div className="flex-1 overflow-y-auto">
                       {slides[currentSlide].content}
                     </div>
@@ -554,7 +554,7 @@ export default function PitchDeckPage() {
                 </motion.div>
               </AnimatePresence>
             </div>
-            
+
             {/* Slide Controls */}
             <div className="bg-gray-800 px-4 py-3 flex justify-between">
               <Button
@@ -565,7 +565,7 @@ export default function PitchDeckPage() {
               >
                 Previous
               </Button>
-              
+
               <Button
                 variant="primary"
                 size="sm"

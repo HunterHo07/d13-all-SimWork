@@ -97,7 +97,7 @@ export const getDemoUser = (role: UserRole): User => {
   return {
     id: 'demo-user',
     name: 'Demo User',
-    email: 'demo@simulex.ai',
+    email: 'demo@simwork.ai',
     role,
     avatar: '/images/avatars/avatar-demo.png',
     progress: {

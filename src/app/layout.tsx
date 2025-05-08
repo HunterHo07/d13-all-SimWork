@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SimulEx | The Future of Work Simulation",
+  title: "SimWork | The Future of Work Simulation",
   description: "AI-driven, immersive work simulation platform for training and assessment",
   icons: {
     icon: '/images/favicon.webp',

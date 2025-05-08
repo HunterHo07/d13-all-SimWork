@@ -34,7 +34,7 @@ export default function WhyUsPage() {
   // Competitor comparison data
   const competitors = [
     {
-      name: "SimulEx",
+      name: "SimWork",
       price: "$19.99/mo",
       age: "New",
       features: {
@@ -144,7 +144,7 @@ export default function WhyUsPage() {
           {/* Header */}
           <div className="text-center mb-16">
             <TextReveal
-              text="Why Choose SimulEx?"
+              text="Why Choose SimWork?"
               element="h1"
               preset="gradient"
               className="text-4xl md:text-5xl font-bold mb-4"
@@ -198,7 +198,7 @@ export default function WhyUsPage() {
                         <th className="py-4 px-6 text-left">Feature</th>
                         {competitors.map((competitor, index) => (
                           <th key={index} className="py-4 px-6 text-center">
-                            {competitor.name === "SimulEx" ? (
+                            {competitor.name === "SimWork" ? (
                               <span className="text-indigo-400 font-bold">{competitor.name}</span>
                             ) : (
                               competitor.name
@@ -212,7 +212,7 @@ export default function WhyUsPage() {
                         <td className="py-3 px-6 text-gray-300">Starting Price</td>
                         {competitors.map((competitor, index) => (
                           <td key={index} className="py-3 px-6 text-center text-gray-400">
-                            {competitor.name === "SimulEx" ? (
+                            {competitor.name === "SimWork" ? (
                               <span className="text-indigo-400 font-bold">{competitor.price}</span>
                             ) : (
                               competitor.price
@@ -224,7 +224,7 @@ export default function WhyUsPage() {
                         <td className="py-3 px-6 text-gray-300">Company Age</td>
                         {competitors.map((competitor, index) => (
                           <td key={index} className="py-3 px-6 text-center text-gray-400">
-                            {competitor.name === "SimulEx" ? (
+                            {competitor.name === "SimWork" ? (
                               <span className="text-indigo-400 font-bold">{competitor.age}</span>
                             ) : (
                               competitor.age
@@ -238,7 +238,7 @@ export default function WhyUsPage() {
                           {competitors.map((competitor, compIndex) => (
                             <td key={compIndex} className="py-3 px-6 text-center">
                               {competitor.features[feature as keyof typeof competitor.features] ? (
-                                <span className={competitor.name === "SimulEx" ? "text-green-500 font-bold" : "text-green-500"}>✓</span>
+                                <span className={competitor.name === "SimWork" ? "text-green-500 font-bold" : "text-green-500"}>✓</span>
                               ) : (
                                 <span className="text-red-500">✗</span>
                               )}
@@ -270,7 +270,7 @@ export default function WhyUsPage() {
                     </div>
                   </div>
                   <p className="text-gray-300 mb-4">
-                    "SimulEx transformed our onboarding process. New developers get up to speed twice as fast with the interactive coding challenges."
+                    "SimWork transformed our onboarding process. New developers get up to speed twice as fast with the interactive coding challenges."
                   </p>
                   <div className="flex">
                     {[1, 2, 3, 4, 5].map((star) => (
@@ -290,7 +290,7 @@ export default function WhyUsPage() {
                     </div>
                   </div>
                   <p className="text-gray-300 mb-4">
-                    "The design workstation in SimulEx provides realistic briefs and feedback that helped me improve my skills dramatically."
+                    "The design workstation in SimWork provides realistic briefs and feedback that helped me improve my skills dramatically."
                   </p>
                   <div className="flex">
                     {[1, 2, 3, 4, 5].map((star) => (
@@ -310,7 +310,7 @@ export default function WhyUsPage() {
                     </div>
                   </div>
                   <p className="text-gray-300 mb-4">
-                    "The decision-making scenarios in SimulEx are incredibly realistic. They've helped our PM team develop better judgment and resource allocation skills."
+                    "The decision-making scenarios in SimWork are incredibly realistic. They've helped our PM team develop better judgment and resource allocation skills."
                   </p>
                   <div className="flex">
                     {[1, 2, 3, 4, 5].map((star) => (
@@ -330,7 +330,7 @@ export default function WhyUsPage() {
                     </div>
                   </div>
                   <p className="text-gray-300 mb-4">
-                    "SimulEx has revolutionized our hiring process. We can now evaluate candidates based on actual performance rather than just interviews and resumes."
+                    "SimWork has revolutionized our hiring process. We can now evaluate candidates based on actual performance rather than just interviews and resumes."
                   </p>
                   <div className="flex">
                     {[1, 2, 3, 4, 5].map((star) => (
@@ -349,7 +349,7 @@ export default function WhyUsPage() {
                 Ready to Experience the Difference?
               </h2>
               <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-                Join SimulEx today and transform how you train, assess, and develop professional skills.
+                Join SimWork today and transform how you train, assess, and develop professional skills.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Button

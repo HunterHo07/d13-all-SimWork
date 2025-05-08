@@ -79,7 +79,7 @@ export function Navbar({ className }: NavbarProps) {
             >
               <span className="text-white font-bold text-xl">S</span>
             </motion.div>
-            <span className="text-white font-bold text-xl">SimulEx</span>
+            <span className="text-white font-bold text-xl">SimWork</span>
           </Link>
 
           {/* Desktop Navigation */}

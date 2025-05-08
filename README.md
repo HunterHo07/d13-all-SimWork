@@ -1,4 +1,4 @@
-# SimulEx: The Future of Work Simulation Platform
+# SimWork: The Future of Work Simulation Platform
 
 <div align="center">
   <strong>Train. Simulate. Master.</strong>
@@ -6,7 +6,7 @@
 
 ## 🚀 Overview
 
-SimulEx is an AI-driven, immersive "future of work" simulation platform that combines real-world tasks with adaptive difficulty, OCR-enabled asset submission, and real-time analytics. Our platform bridges the gap between theoretical knowledge and practical application, offering both training and assessment capabilities in one solution.
+SimWork is an AI-driven, immersive "future of work" simulation platform that combines real-world tasks with adaptive difficulty, OCR-enabled asset submission, and real-time analytics. Our platform bridges the gap between theoretical knowledge and practical application, offering both training and assessment capabilities in one solution.
 
 ## 🎯 Problem
 
@@ -19,7 +19,7 @@ Traditional corporate training and hiring processes suffer from:
 
 ## 💡 Solution
 
-SimulEx places users in a 2.5D office environment with stations for various roles:
+SimWork places users in a 2.5D office environment with stations for various roles:
 
 - **Developer Bay**: Real terminal challenges and coding tasks
 - **Design Lab**: Creative briefs and asset submission
@@ -65,7 +65,7 @@ Each station features authentic tools and tasks that mirror real-world workflows
 
 ## 📊 Market Position
 
-SimulEx offers a unique combination of features not found in any single competitor:
+SimWork offers a unique combination of features not found in any single competitor:
 
 - Cross-domain integration across multiple job functions
 - Real-world task simulation beyond quizzes and videos
@@ -75,4 +75,4 @@ SimulEx offers a unique combination of features not found in any single competit
 
 ## 📝 License
 
-© 2024 SimulEx. All rights reserved.
+© 2024 SimWork. All rights reserved.
