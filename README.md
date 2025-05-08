@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SimulEx: The Future of Work Simulation Platform
 
-## Getting Started
+<div align="center">
+  <strong>Train. Simulate. Master.</strong>
+</div>
 
-First, run the development server:
+## 🚀 Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+SimulEx is an AI-driven, immersive "future of work" simulation platform that combines real-world tasks with adaptive difficulty, OCR-enabled asset submission, and real-time analytics. Our platform bridges the gap between theoretical knowledge and practical application, offering both training and assessment capabilities in one solution.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Problem
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Traditional corporate training and hiring processes suffer from:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Wrong Hires, Wasted Money**: Companies keep hiring the wrong people—time, salary, and training costs wasted.
+- **Fake Skills, No Real Test**: Many hires pass interviews but fail on the job with no hands-on environment to prove skills.
+- **Slow, Inefficient Hiring Process**: Too many rounds, test sheets, and guesswork with no live data or real output.
+- **No KPI or Proof of Skill**: Current systems don't track real performance with no real-time KPIs or session recordings.
 
-## Learn More
+## 💡 Solution
 
-To learn more about Next.js, take a look at the following resources:
+SimulEx places users in a 2.5D office environment with stations for various roles:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Developer Bay**: Real terminal challenges and coding tasks
+- **Design Lab**: Creative briefs and asset submission
+- **Project Management Hub**: Decision-making and resource allocation
+- **Data Entry Station**: Accuracy and speed challenges
+- **AI Engineering Zone**: Prompt engineering and model evaluation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Each station features authentic tools and tasks that mirror real-world workflows, with AI-powered adaptivity and comprehensive analytics.
 
-## Deploy on Vercel
+## 🌐 Phased Rollout
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Phase 1 (Current MVP)
+- Web-based 2.5D simulation game
+- Interactive office environment
+- AI-powered quest system
+- Embedded tools for various roles
+- Basic scoring and feedback
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Phase 2
+- Desktop/mobile applications
+- Expanded role scenarios
+- Enhanced analytics dashboard
+- Team collaboration features
+
+### Phase 3
+- VR/AR integration
+- Multiplayer enterprise modules
+- Advanced AI coaching
+- Industry-specific simulations
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js, Three.js, GSAP, Framer Motion
+- **Animation**: Advanced 3D/2.5D animations
+- **State Management**: React Context API
+- **Storage**: LocalStorage for user data
+- **Deployment**: GitHub Pages
+
+## 🔗 Links
+
+- [Live Demo](https://yourusername.github.io/i5/)
+- [GitHub Repository](https://github.com/yourusername/i5)
+
+## 📊 Market Position
+
+SimulEx offers a unique combination of features not found in any single competitor:
+
+- Cross-domain integration across multiple job functions
+- Real-world task simulation beyond quizzes and videos
+- Adaptive difficulty that adjusts to user skill level
+- Comprehensive analytics for detailed performance tracking
+- Engaging 3D environment for immersive learning
+
+## 📝 License
+
+© 2024 SimulEx. All rights reserved.
